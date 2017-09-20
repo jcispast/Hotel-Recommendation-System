@@ -9,7 +9,7 @@ This system is beneficial to customers and hotels. Customers can find hotels as 
 
 2.Requirement Analysis
 
-1 Database planning
+1 Database planning:
 This system uses mysql  database  named Hotel and it consist of three tables
 a.Hotel table ( Contains all information about hotels like hotel name, average room price, description about hotel, location, facility and hotel image ).
 b.Reviews table ( It stores all reviews given by users for particular hotel like hotel id, reviews, rating, feedback provider).
@@ -38,7 +38,7 @@ Reviews Table  - This table stores all reviews and rating of all hotels by users
 There are two types of users  -  Admin  and customers.
 Admin  user have the ability to add new hotel to hotel listing and edit hotel information.
 
-1> Add /Edit/ Delete Hotel details 
+1> Add /Edit/ Delete Hotel details. 
 
 2> Browse Hotels.
 
