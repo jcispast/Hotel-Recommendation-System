@@ -4,6 +4,7 @@ A Hotel Recommendation web application that allows users to find hotels as per t
 1.Introduction and Motivations
 
 This project is basic example of how Hotel searching and recommendation system works.  It helps users to find appropriate hotel rooms at distant places even before visiting . This kind of system reduces travelers problem of accommodation. The best thing about this system is that, it allow users  to provide a feedback about their experience with hotel which helps other users and also forces hotel owners for better services to customers.
+
 This system is beneficial to customers and hotels. Customers can find hotels as per their requirements using search function and feedback system. Hotel owners can also benefit from this system as their reach increases to  distant parts of the world
 
 2.Requirement Analysis
@@ -22,19 +23,29 @@ I used MySQL as relational database. As for web programming language, we use Jav
 3.Database Design
 
 Hotel recommendation system consist of 3 tables
+
 Hotel Table -  This table store all hotels list and consist of entities like
 id (Primary key), name, price, descript, facility, location, img, checkin , checkout.
+
 User browse hotels based on above entities. Users get hotel recommendation based on location, and price.
+
 Users Table – This table stores users id, username and password. This table is used for login and registration. Users are capable of searching hotels, writing review and rating hotel.
+
 Reviews Table  - This table stores all reviews and rating of all hotels by users.
 
 4.Application Design
 
 There are two types of users  -  Admin  and customers.
 Admin  user have the ability to add new hotel to hotel listing and edit hotel information.
+
 1> Add /Edit/ Delete Hotel details 
+
 2> Browse Hotels.
+
 Customers have the ability to search hotel as per their requirements. Customers can register with system and provide a feedback based on their experience.
+
 1> Register/Login.
+
 2> Browse or search hotels. 
+
 3> Provide feedback.
