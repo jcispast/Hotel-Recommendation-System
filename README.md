@@ -18,104 +18,22 @@ Current and New users can be recommended with other hotels they may like; Users 
 3.Web languages used :
 We will use MySQL as relational database. As for web programming language, we use JavaScript, CSS, HTML; Chosen web server: Apache HTTP server.
 
-
-
-
-
-
-
-
-
-
-
 3.Database Design
 
 Hotel recommendation system consist of 3 tables
 Hotel Table -  This table store all hotels list and consist of entities like
 id (Primary key), name, price, descript, facility, location, img, checkin , checkout.
 User browse hotels based on above entities. Users get hotel recommendation based on location, and price.
-
-
-
 Users Table – This table stores users id, username and password. This table is used for login and registration. Users are capable of searching hotels, writing review and rating hotel.
-
-
-
-
-
-
-
 Reviews Table  - This table stores all reviews and rating of all hotels by users.
-
-
-
-
 
 4.Application Design
 
 There are two types of users  -  Admin  and customers.
 Admin  user have the ability to add new hotel to hotel listing and edit hotel information.
-1> Add /Edit/ Delete Hotel details 2>   Browse Hotels.
+1> Add /Edit/ Delete Hotel details 
+2> Browse Hotels.
 Customers have the ability to search hotel as per their requirements. Customers can register with system and provide a feedback based on their experience.
-1>  Register/Login.
-2> Browse or search hotels. 3>   Provide feedback.
-
-5.Demos
-
-For admin user, I set the admin user, the name is “admin”, password is “admin@123”
-
-
-The login page
-
-The page for admin user, “Admin Panel” is located in top right.
-
-
-When admin user click Admin Panel, she/he can edit, add or delete hotel information.
-
-
-
-
-
-
-
-
-...
-
-For noraml users, anyone can register a new account in register and log in, there I set a user name “abc” password “abc” as an example.
-
-
-
-
-This is the page of normal users, the user can search the hotel according to the City name, date and budget they entered.
-
-
-
-
-
-
-Click one of the recommended hotel, the information of the hotel will appear, user can see other customer’s review. Also, the user can add a comment too.
-
-
-Below that hotel, there are some other recommended hotels based on similar city and price.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+1> Register/Login.
+2> Browse or search hotels. 
+3> Provide feedback.
