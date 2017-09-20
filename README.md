@@ -7,6 +7,7 @@ This project is basic example of how Hotel searching and recommendation system w
 This system is beneficial to customers and hotels. Customers can find hotels as per their requirements using search function and feedback system. Hotel owners can also benefit from this system as their reach increases to  distant parts of the world
 
 2.Requirement Analysis
+
 1 Database planning
 This system uses mysql  database  named Hotel and it consist of three tables
 a.Hotel table ( Contains all information about hotels like hotel name, average room price, description about hotel, location, facility and hotel image ).
@@ -16,7 +17,7 @@ c.Users table ( This table stores all information about admin and users credenti
 2.How system works:
 Current and New users can be recommended with other hotels they may like; Users can see the the range of price of hotels, review information and hotel facilities.
 3.Web languages used :
-We will use MySQL as relational database. As for web programming language, we use JavaScript, CSS, HTML; Chosen web server: Apache HTTP server.
+I used MySQL as relational database. As for web programming language, we use JavaScript, CSS, HTML; Chosen web server: Apache HTTP server.
 
 3.Database Design
 
